@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+    id "com.github.johnrengelman.shadow" version "8.1.1"
+}
+
+group = 'dev.emortal'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+    implementation("com.github.Minestom:Minestom:8ad2c7701f")
+    implementation("com.github.EmortalMC:rayfast:9e5accbdfd")
+
+    implementation 'org.tinylog:tinylog-api:2.6.1'
+    implementation 'org.tinylog:tinylog-impl:2.6.1'
+}

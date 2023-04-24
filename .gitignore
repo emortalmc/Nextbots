@@ -38,5 +38,9 @@ bin/
 ### VS Code ###
 .vscode/
 
+lobby/
+gm_bigcity/
+
+
 ### Mac OS ###
 .DS_Store
